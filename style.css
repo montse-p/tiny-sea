@@ -1,0 +1,150 @@
+h1{
+    z-index: 4;
+    position: relative;
+    top: 40px;
+    color: antiquewhite;
+    text-shadow: 0 0 2px #000;
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+    margin: 5px;
+}
+
+
+h2{
+    z-index:5;
+    position: relative;
+    color: antiquewhite;
+    text-shadow: 0 0 2px #000;
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+} 
+
+body{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #113c1f;
+    overflow-y:scroll;
+    background-image: url(tiny_sea_bg.jpeg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.container{
+    margin: 40px;
+    width: 700px;
+    padding:20px 40px;
+    text-align:center;
+    border-radius: 25px;
+    z-index: 3;
+    background: linear-gradient(#0988bb, #0d5a78, #012736);
+    overflow-y: scroll;
+    position: relative;
+    top: 350px;
+    color: antiquewhite;
+}
+
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 100vw;
+    margin-block: .5em;
+    margin-inline: 1em;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(23, 92%, 55%);
+    border-radius: 100vw;
+}
+
+.gloria-hallelujah-regular {
+font-family: "Gloria Hallelujah", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+}
+
+.lacquer-regular {
+font-family: "Lacquer", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+}
+
+.schoolbell-regular {
+font-family: "Schoolbell", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+}
+
+.stick-regular {
+    font-family: "Stick", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}  
+
+.big-text{ 
+position: relative; 
+font-size: 70px;
+left: 10px; 
+} 
+
+.oval {
+width: 100px;
+height: 80px;
+background: #964B00;
+border-radius: 40px;
+position: relative;
+border: 5px antiquewhite solid;
+}
+
+.left-shift {
+margin-top: 50px;
+margin-left:300px;
+}
+
+  /* Hover and Item Fade:
+  https://stackoverflow.com/questions/21145621/css-transition-opacity-fade-background */
+  .hover:hover {
+    opacity: 1;
+  }
+
+  .item-fade { 
+    opacity: 0;
+    border-radius: 40px;
+    padding: 10px;
+    transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+ }
+
+img{
+    max-width: 450px;
+    position: relative;
+    z-index: 5;
+    }
+
+img[src="cup.png"] {
+    max-width: 400px;
+    margin: 10px;
+    align-items: center;
+}
+
+img[src="fence.png"] {
+    max-width: 600px;
+    z-index: 3;
+}
